@@ -39,7 +39,7 @@ class _SurveyPageState extends State<Survey2PageState> {
 
   Future<void> _submitAnswer(double rating) async {
     final url = Uri.parse(
-        'https://tdt-oy5qrz33qq-tl.a.run.app/api/respuesta'); // Reemplaza con la URL correcta de tu API
+        'https://tdt2-oiybpwrpsa-tl.a.run.app/api/respuesta'); // Reemplaza con la URL correcta de tu API
     final headers = {
       'Content-Type': 'application/json'
     }; // Opcional, depende de las necesidades de tu API

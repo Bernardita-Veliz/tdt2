@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
       home: const FirstScreen(),
       routes: {
         '/first-screen': (context) => const FirstScreen(),
-        'login': (context) => const loginPage(),
+        'login': (context) => loginPage(),
         'home-login': (context) => loginHomeState(),
         'second-screen': (context) => SurveyPageState(),
         '/third-screen': (context) => Survey2PageState(),
